@@ -7,6 +7,7 @@ body{
     height: 100vh;
     background: #333;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-family: conoslas;
 }
@@ -65,4 +66,47 @@ body{
 .imgbox{
     opacity: 0.2;
     transition: 0.5s;
+}
+
+/*efeitp hover na imagem*/
+.card:hover .imgbox{
+    opacity: 1;
+}
+
+/*estilização da imagem face 1*/
+.face1 img{
+    width: 100px;
+}
+
+/*estilização do H3*/
+
+h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*estilização do paragrafo*/
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/*botao read more*/
+a{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #777;
+    padding: 5px;
+    border: 1px solid #777;
+}
+
+/*efeito hover no read more*/
+a:hover {
+    background-color: #777;
+    color: white;
 }
